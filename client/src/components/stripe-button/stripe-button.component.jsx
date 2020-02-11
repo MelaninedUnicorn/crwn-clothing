@@ -33,6 +33,7 @@ const StripeCheckoutButton = ({ price }) => {
       name="Unique CRWN Ltd."
       image="https://sendeyo.com/up/d/f3eb2117da"
       description={`Your total is ${price} $`}
+      currency="CAD"
       billingAddress
       shippingAddress
       amount={priceForStripe}
